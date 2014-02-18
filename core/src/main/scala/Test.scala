@@ -1,3 +1,4 @@
 object Test extends App {
-  Macros.hello
+  println(Macros.gen("x").x)
+  println(Macros.gen("y").y)
 }
